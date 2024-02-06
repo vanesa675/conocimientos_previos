@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .menu-hamburguesa {
+      display: flex;
+    }
+}
+
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contenedor {
+      display: block;
+    }
+  
+    img {
+      float: none;
+      margin: 0 auto;
+    }
+  }
+
+  .title2 {
+    font-size: 1rem;
+  }
+  
+  @media (max width: 414px){
+    #img1{
+        float: none;
+        width: 250px;
+        height: 150px;
+    }
+  }
+
+
