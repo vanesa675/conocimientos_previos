@@ -1,13 +1,13 @@
 @media screen and (max-width: 1400px) {
-    #profile {
+    #GitHub {
         height: 83vh;
         margin-bottom: 6rem;
     }
     .about-containers {
         flex-wrap: wrap;
     }
-    #contact,
-    #Projects {
+    #JavaScript,
+    #CSS {
         height: fit-content;
     }
 }
@@ -19,15 +19,7 @@
     #hamburger-nav {
         display: flex;
     }
-    #experience,
-    .experience-details-container {
-        margin-top: 2rem;
-    }
-    #Projects,
-    .projects-details-container {
-        margin-top: 2rem;
-    }
-    #profile,
+    #GitHub,
     .section-container {
         display: block;
     }
@@ -52,11 +44,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    #contact,
+    #JavaScript,
     footer {
         height: 40vh;
     }
-    #profile {
+    #GitHub {
         height: 83vh;
         margin-bottom: 0;
     }
@@ -78,9 +70,6 @@
     .contact-info-container p,
     .nav-links li a {
         font-size: 1rem;
-    }
-    .experience-sub-title {
-        font-size: 1.25rem;
     }
     .logo {
         font-size: 1.5rem;
@@ -105,3 +94,4 @@
         text-align: justify;
     }
 }
+
