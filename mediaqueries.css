@@ -17,6 +17,7 @@
         display: none;
     }
     #hamburger-nav {
+        margin: auto;
         display: flex;
     }
     #GitHub,
