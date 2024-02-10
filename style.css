@@ -58,6 +58,7 @@ a:hover {
 
 #hamburger-nav {
     display: none;
+    text-align: center;
 }
 
 .hamburger-menu {
@@ -83,7 +84,7 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    top: 100%;
+    top: 200%;
     right: 0;
     background-color: white;
     width: fit-content;
@@ -94,10 +95,10 @@ a:hover {
 
 .menu-links a {
     display: block;
-    padding: 10px;
+    padding: 1,8px;
     text-align: center;
-    font-size: 1.5rem;
-    color: black;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -146,13 +147,11 @@ section {
     display: flex;
 }
 
-/*PROFILE SECTION*/
-
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    gap: 10rem;
+    height: 70vh;
 }
 
 .section__pic-container {
@@ -171,9 +170,6 @@ section {
     font-weight: 600;
 }
 
-.section__text__p1 {
-    text-align: center;
-}
 
 .section__text__p2 {
     font-size: 1.75rem;
@@ -187,12 +183,6 @@ section {
     background-color: rgb(255, 255, 255);
     margin: auto;
     display: block;
-}
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
 }
 
 .btn {
@@ -307,4 +297,24 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.js-button {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.js-button:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
